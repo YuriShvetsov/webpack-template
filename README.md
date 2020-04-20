@@ -1,26 +1,30 @@
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&display=swap" rel="stylesheet">
-<div align="center" style="font-family: 'Nunito', sans-serif;">
-  <img width="120" height="120" src="https://webpack.js.org/assets/icon-square-big.svg">
-  <h1 style="margin: 5px 0;">Webpack Template</h1>
+<div align="center">
+  <img width="130" height="130" src="https://webpack.js.org/assets/icon-square-big.svg">
+  <h1>Webpack Template</h1>
   <p>
     Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
   </p>
 </div>
 
 
-### Info
+### Run
 
-###### Download repository:
-`git clone https://github.com/YuriShvetsov/webpack-template folder`
+Download repository:
 
-###### Install dependencies:
-`npm i`
+    $ git clone https://github.com/YuriShvetsov/webpack-template folder
 
-###### Server with hot reload at http://localhost:9000/
-`npm run dev`
+Install dependencies:
 
-###### Output will be at dist
-`npm run build`
+    $ npm i
+
+Server with hot reload at http://localhost:9000/:
+
+    $ npm run dev
+
+Output will be at dist:
+
+    $ npm run build
+
 
 
 ### Project Structure
@@ -31,10 +35,6 @@
 * `src/assets/images` - put images here. Don't forget to use correct path: `assets/images/some.jpg`
 * `src/js` - put custom app scripts here
 * `src/index.js` - main app file where you include/import all required libs and init app
-
-<div style="text-align: center; text-transform: uppercase;">
-  <h3>Settings</h3>
-</div>
 
 ### Default paths
 
